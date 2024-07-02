@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Registration</title>
+</head>
+  <body>
+    <h2>Registration</h2>
+    <table>
+        <td>
+<fieldset>
+    <legend>General Information</legend>
+    <table>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value= "Tamim"><br><br>
+
+        <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname" value="Hasan Apurbo"><br><br>
+           
+
+<p><strong>Gender :</strong>
+     <input type="radio" id="html" name="Gender" value="Male"
+     <label for="Male" >Male</label>
+     <input type="radio" id="css" name="Gender" value="Female"
+     <label for="Female" >Female</label><br></p><br>
+        
+        <label for="fname">Father Name:</label>
+        <input type="text" id="fname" name="fname" value="Helel"><br><br>
+    
+        <label for="fname">Mother name:</label>
+        <input type="text" id="fname" name="fname" value="Taslima"><br><br>
+        
+
+        <label for="bloodgroup">Blood Group:</label>
+  <select id="bloodgroup" name="bloodgroup">
+    <option value="a+">A+</option>
+    <option value="b+">B+</option>
+    <option value="ab+">AB+</option>
+    <option value="o+">O+</option>
+  </select><br><br>
+    
+
+  <label for="religion">Religion:</label>
+  <select id="religion" name="religion">
+    <option value="islam">Islam</option>
+    <option value="hinduism">Hinduism</option>
+    <option value="buddhim">Buddhim</option>
+  </select><br><br>
+
+    </table>
+</fieldtext>
+</td>
+
+<td>
+<fieldset>
+ <legend>Contact Information</legend>
+ <table>
+  
+    <label for="fname">Email:</label>
+    <input type="text" id="fname" name="fname" value= "tamimhasanapurbo102"><br><br>
+
+    <label for="lname">Phone/Mobile</label>
+<input type="text" id="lname" name="lname" value=+880-01637241089><br><br>
+
+<label for="fname">Website:</label>
+<input type="text" id="fname" name="fname" value= "https://tamim.me"><br><br>
+
+<p><b>Present Address :</b><fildset><legend>Present Address</legend>
+<select> <option value="bangladesh">Bangladesh</option>
+    <option value="india">India</option>
+    <option value="pakistan">Pakistan</option>
+</select>
+
+<select> <option value="dhaka">Dhaka</option>
+    <option value="dilli">Dilli</option>
+    <option value="islamabad">Islamabad</option>
+</select>
+</p>
+
+<p><input type="text" style="width:120px; height: 50px"><br></p>
+<p><input type="number"><br></p>
+
+</fildset>
+ </table>
+</fieldset>
+</td>
+
+
+<td>
+    <fieldset>
+     <legend>Account Information</legend>
+     <table>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+
+        <label for="pwd">Confirm Password:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+
+     </table>
+    </fieldset>
+    <input type="submit" value="Register"><br><br>
+
+
+    </td>
+</table>
+</body>
+</html>
